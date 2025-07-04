@@ -1,94 +1,3 @@
-// export const courseData = {
-//   "Build Your Own Static Website": {
-//     "Introduction to HTML": {
-//       "Your first Frontend Project | Getting started":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/a7655aa9-f5aa-4fbe-b7cc-65f9e373177c_transcript.srt",
-//       "Introduction to HTML":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/c3d3e6b7-6a78-482c-abf0-b3ca6c62195c_transcript.srt",
-//       "HTML Elements and Structure":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/sample1_transcript.srt",
-//       "Creating Your First HTML Page":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/sample2_transcript.srt",
-//     },
-//     "Introduction to CSS": {
-//       "Introduction to CSS | Part 1":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/bd256948-9afa-497c-8444-e1dd8759b7fe_transcript.srt",
-//       "Introduction to CSS | Part 2":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/afe68f26-66f6-4746-9859-20841194ee37_transcript.srt",
-//     },
-//     "Intro to CSS & CSS Box Mode": {
-//       "Introduction to CSS | Part 3":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/42957890-3f53-44a1-b95f-4996ecd470de_transcript.srt",
-//       "Introduction to CSS Box Model | Part 1":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/baab8c69-b6fb-43e9-97fe-94128b0de480_transcript.srt",
-//     },
-//     "CSS Box Model & Intro to Bootstrap": {
-//       "Introduction to CSS Box Model | Part 2": "N/A",
-//       "Introduction to Bootstrap":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/969cbad2-87e8-427f-9d2e-655d29fdd201_transcript.srt",
-//     },
-//     "Introduction to Bootstrap & Developing Layouts": {
-//       "Introduction to Bootstrap | Part 2":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/43cc45a6-9f92-476a-94eb-590f47d79256_transcript.srt",
-//       "Favourite Places Section":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/8cfb79f2-c0f1-435a-97b9-7584ac8efd53_transcript.srt",
-//     },
-//     "Developing Layouts": {
-//       "Approach to Develop a Layout":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/713c5ca8-4fd9-4605-92d1-e072d9ffae0a_transcript.srt",
-//       "A Note on Bootstrap Versions":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/3511a3f7-dff8-4196-8fd1-d502db4ebfd5_transcript.srt",
-//       "Favourite Place Detailed View Section":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/db7cc5cc-3a14-47bf-a0ad-3d9719be8aa1_transcript.srt",
-//     },
-//     "Website Integration": {
-//       "Website Integration":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/3c28e184-2a67-4c3c-9c9c-2f0cd1990b32_transcript.srt",
-//       "Website Integration | Part 2":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/49657649-cab6-4583-9b6b-7a1c8cfa80c6_transcript.srt",
-//     },
-//     "HTML Hyperlinks": {
-//       "Website: Behind the Scenes":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/441bf601-5221-4ced-81d5-c83c0bbc765f_transcript.srt",
-//       "HTML Hyperlinks":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/5ff18af0-750f-4bb5-9e9c-a77c01552235_transcript.srt",
-//     },
-//   },
-//   "React Development": {
-//     "Getting Started with React": {
-//       "What is React?":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/react1_transcript.srt",
-//       "Setting up React Environment":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/react2_transcript.srt",
-//       "Your First React Component":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/react3_transcript.srt",
-//     },
-//     "React Components": {
-//       "Functional Components":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/react4_transcript.srt",
-//       "Props and State":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/react5_transcript.srt",
-//     },
-//   },
-//   "Python Programming": {
-//     "Python Basics": {
-//       "Introduction to Python":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/python1_transcript.srt",
-//       "Variables and Data Types":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/python2_transcript.srt",
-//       "Control Structures":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/python3_transcript.srt",
-//     },
-//     "Advanced Python": {
-//       "Object-Oriented Programming":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/python4_transcript.srt",
-//       "File Handling":
-//         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/python5_transcript.srt",
-//     },
-//   },
-// };
-
-// ========================
 // courseData.js - COMPLETE COURSE DATA FROM YOUR PDF
 // ========================
 export const courseData = {
@@ -443,4 +352,218 @@ export const courseData = {
         "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/3ffdf529-8d69-422c-9e4a-1cd2846a2a0d_transcript.srt",
     },
   },
+  "Node JS": {
+    "MERN Stack and CCBP IDE": {
+      "MERN Stack":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/33103348-9aaa-4685-a0b8-d3462a14fee6_transcript.srt",
+      "Cloud IDE Walkthrough":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/8a9e84bb-8ffa-46fe-8df2-2005100eb8b0_transcript.srt",
+    },
+    "Introduction to Node JS": {
+      "Introduction to Node JS":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/53fd0fb7-3a4e-4ad3-ae59-080382a37953_transcript.srt",
+      "Solving A Node JS Question In Cloud IDE":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/d0b3e5c0-69e3-40df-a407-6667ef5fda77_transcript.srt",
+      "Introduction to Node JS | Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/4fff2451-9086-43fa-88d5-913bdfeb834e_transcript.srt",
+    },
+    "Introduction to Express JS": {
+      "Hypertext Transfer Protocol (HTTP)":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/37ae337d-a06e-4f9c-a540-a06186161026_transcript.srt",
+      "Introduction to Express JS":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/64a22450-de81-4116-8212-f1096469abdc_transcript.srt",
+      "Introduction to Express JS | Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/11d34f20-77de-401f-bdf4-6e80e54a7cbe_transcript.srt",
+      "Introduction to Express JS | Part 3":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/f80543e8-67d0-474e-8e45-3c3985e77f2e_transcript.srt",
+    },
+    "REST APIs and Debugging": {
+      "REST APIs":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/f2768dc8-3d51-4004-8298-bb7b6585d517_transcript.srt",
+      "Debugging Common Errors":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/fccbff15-d675-47e8-a41f-8e5100800f97_transcript.srt",
+      "Debugging Common Errors | Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/e96343db-f96a-4d77-a8e0-28df01603942_transcript.srt",
+    },
+    Authentication: {
+      Authentication:
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/1286278f-39fd-4651-ba2e-3178137e1df5_transcript.srt",
+      "Authentication | Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/40409619-a882-4196-af7d-b21b1c694865_transcript.srt",
+      "Authentication | Part 3":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/6dc45d31-c92e-4c81-933c-9ff581ef7ad7_transcript.srt",
+    },
+  },
+  "JS Essentials": {
+    "More Modern JS Concepts": {
+      "More Modern JS Concepts":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/706c1d32-6024-4721-b587-f4e440580ae8_transcript.srt",
+      "More Modern JS Concepts | Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/0e7d0c51-d168-4ec4-88be-2f340de65cb7_transcript.srt",
+    },
+    "More Modern JS Concepts II": {
+      "Factory and Constructor Functions":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/a93b1ba0-8e8d-4261-853b-23ce574a1191_transcript.srt",
+      "More Modern JS Concepts | Part 3":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/a05021e0-e13f-45d0-aeca-968f7ccd5c58_transcript.srt",
+    },
+    "JS Classes & Promises": {
+      "JS Promises | Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/a2685ad3-6be1-143b0-b224-4d91115ff42d_transcript.srt",
+    },
+    "More JS Concepts": {
+      "More JS Concepts":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/93909a82-efc4-4c79-bfa0-4800de8cb542_transcript.srt",
+    },
+  },
+  DSA: {
+    "C++ Basics": {
+      "C++ Basics Part - 1":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/c2b9a512-a5ca-460d-b6e3-42c63d205c5e_transcript.srt",
+      "C++ Basics Part - 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/d9638809-9c8e-4ba7-96dd-8ae428087ce5_transcript.srt",
+    },
+    "C++ STL": {
+      "C++ STL Part - 1":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/aa8c1e4a-4f21-44cb-acf6-daf5c6248bed_transcript.srt",
+      "C++ STL Part - 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/1d6b8d5f-a80b-47b8-aa31-254fd6ffc890_transcript.srt",
+      "C++ STL Part - 3":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/0f4aa47f-ed28-46d5-ad9b-fa14cd6d36d3_transcript.srt",
+    },
+    "Introduction to DSA": {
+      "Introduction to DSA":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/f7695aa1-efdc-4db6-8e16-8f0ea13e4625_transcript.srt",
+    },
+    "Complexity Analysis": {
+      "Time Complexity":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/38af1d58-b5de-46f9-aa7d-a5e539e6846f_transcript.srt",
+      "Space Complexity":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/08a279f1-ca33-4b55-9c57-4f36cc06f83a_transcript.srt",
+    },
+    "Math Basics": {
+      "Math Basics Part 1":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/09a96d5d-e395-4a94-968a-16a6987349d6_transcript.srt",
+      "Math Basics Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/7bb66728-006a-4244-8e77-90ad1e0ece37_transcript.srt",
+    },
+    "Pseudo Code": {
+      "Pseudo Code":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/ba9a0af5-f6b3-460a-b5ab-5e36f5131d90_transcript.srt",
+    },
+    Recursion: {
+      "Understanding Recursion":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/9d7bf254-867c-4545-b904-b61b318ab6a7_transcript.srt",
+      "Printing 1 to N and N to 1 Using Recursion":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/03e6295e-42a2-4ea7-958e-dfaa371d6837_transcript.srt",
+      "Sum of N & Factorial Using Recursion":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/821e5981-05ac-481e-a75f-a9fb2292149b_transcript.srt",
+      "Reversing an Array and Checking Palindromes Using Recursion":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/54452350-2e26-4b7e-b917-f3ace0b68dc0_transcript.srt",
+      "Fibonacci Series Using Recursion":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/bc1d9930-73e8-4998-8f7f-b6b526a78e64_transcript.srt",
+    },
+    Sorting: {
+      "Selection Sort":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/a2ee56e6-cc23-4b71-af96-ad9f155f9712_transcript.srt",
+      "Bubble Sort":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/55435050-b81a-4c0e-8763-9d1b0460e50a_transcript.srt",
+      "Insertion Sort":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/be378007-92a2-428f-b5d5-1ea882f97541_transcript.srt",
+      "Merge Sort Part 1":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/4aaec7b5-b5c3-41be-8930-b644c2f7d488_transcript.srt",
+      "Merge Sort Part 2":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/71a40f92-138d-4ad6-9078-5451d1971aac_transcript.srt",
+      "Quick Sort":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/957c556c-03f3-4f3c-9090-3acc5a643c01_transcript.srt",
+    },
+    Arrays: {
+      "Largest Element":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/91a1b17c-fed2-4b9a-a812-43cfe36bc4f0_transcript.srt",
+      "Second Largest Element":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/d227d2a9-ff9d-4dac-bbfe-6f87248223eb_transcript.srt",
+      "Checking if Array is Sorted and Removing Duplicates":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/813580bc-c539-4e92-8921-e78bb5a3d77c_transcript.srt",
+    },
+    "Binary Search": {
+      "Introduction to Binary Search":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/12efc242-f980-448b-a465-7849091dbb9a_transcript.srt",
+      "Lower and Upper Bounds":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/8138c6f9-e47b-4af2-897f-4a70764154e9_transcript.srt",
+      "Searching for Element in Rotated Sorted Array":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/59baee1c-f52a-48c2-b77f-759bf5c8b37d_transcript.srt",
+      "Finding Peak Element":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/c02ff338-ddc9-4890-9d75-807890161127_transcript.srt",
+      "Finding the Nth Root of M":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/024f25ee-2abc-493b-a4c7-f5071cf872cc_transcript.srt",
+    },
+    "Linked List": {
+      "Introduction to Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/894b7a44-4313-4fb4-8cf7-3b00b56a1937_transcript.srt",
+      "Deletion in Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/151082c4-28d2-4e35-b51c-7a6a05776383_transcript.srt",
+      "Insertion in Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/dba3b758-4147-46e1-b5c0-5b6c6ea563cf_transcript.srt",
+      "Reversing a Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/c4c8d7ce-8931-45c1-ad11-26d50e62442c_transcript.srt",
+      "Cycle Detection In Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/66816088-4792-4c03-8916-cd49fb74ac03_transcript.srt",
+      "Introduction to Doubly Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/45c1fa07-c63f-4df2-9c33-bb3565e84a98_transcript.srt",
+      "Deletion in Doubly Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/acb372fe-3bcc-4548-b1a2-e8593391fb98_transcript.srt",
+      "Insertion in Doubly Linked List":
+        "https://nkb-backend-ccbp-media-static.s3.amazonaws.com/ccbp_prod/media/transcripts/6f74bf90-eca3-43c6-b9ee-3629bf2cdb8f_transcript.srt",
+    },
+  },
+  // "Modern Responsive Web Design (Pending)": {
+  //   "Sizing Elements and Box Sizing": {
+  //     "Sizing Elements and Handling Overflow": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=0620e6bf-6435-4d7c-99b8-594978a9551a&s_id=f5563899-f8e1-4cd6-8037-f9cc8ad40d7a",
+  //     },
+  //     "Box Sizing": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=0620e6bf-6435-4d7c-99b8-594978a9551a&s_id=1d30f10a-d325-4e37-9f45-cf0b6bdc59a9",
+  //     },
+  //   },
+  //   "Introduction to CSS Flexbox": {
+  //     "Introduction to CSS Flexbox": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=3cf5e55d-0f38-4840-9c37-37471ef91a3c&s_id=22a2807f-ee84-4fb9-b779-8ce5de8f0991",
+  //     },
+  //     "Introduction to CSS Flexbox | Part 2": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=3cf5e55d-0f38-4840-9c37-37471ef91a3c&s_id=8057202c-c00a-4538-8eb6-a80237c143c2",
+  //     },
+  //   },
+  //   "CSS Flexbox & Media Queries": {
+  //     "Introduction to CSS Flexbox | Part 3": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=75499b94-aa93-45d5-98b3-09e3a9946256&s_id=8c48ac84-3628-41e5-8530-cd9abc6caef5",
+  //     },
+  //     "CSS Media Queries": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=75499b94-aa93-45d5-98b3-09e3a9946256&s_id=2699160f-3f1d-4472-a5ba-410c43b5c779",
+  //     },
+  //   },
+  //   "Flexbox Sizing": {
+  //     "Flexbox Sizing": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=cf17c666-f5b2-433e-9d73-f37bcb140fc1&s_id=3b16b188-8ace-4bb3-9da2-f3630dbe8b40",
+  //     },
+  //     "On-Demand Session": {
+  //       transcriptUrl: "NA",
+  //       videoUrl:
+  //         "https://learning.ccbp.in/course?c_id=1d571a66-be1e-49cd-a17f-5b3b22d6d751&t_id=cf17c666-f5b2-433e-9d73-f37bcb140fc1&s_id=e64459b5-3d43-421d-8fd0-0532717257f5",
+  //     },
+  //   },
+  // },
 };
